@@ -31,6 +31,11 @@ Post Office Protocol
 
 #### Funktion
 
+1. Über den Fernzugriff werden alle gespeicherten E-Mails abgerufen und auf dem lokalen Computer gespeichert.
+2. Nun werden Online die E-Mails vom Posteingangserver vom E-Mail Client heruntergeladen.
+3. Die eingegangenen E-Mails werden nun auf dem lokalen Computer des Benutzers ohne Verbindung bearbeitet.
+4. Die Verbindung vom POP-Server und dem E-Mail-Client erfolgt über TCP auf dem Port 110.
+
 #### Detailierter Ablauf
 
 <img src="https://github.com/lauradubach/M239/blob/main/pop3%20verfahren.png" width="450" height="300">
@@ -53,4 +58,6 @@ IMAP ist das modernere Protokoll. Bei IMAP wird der komplette Inhalt des Emailko
 
 ### Mailserver
 
-### Base64
+### Definition Base64
+
+####Funktion
