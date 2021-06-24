@@ -56,8 +56,18 @@ IMAP ist das modernere Protokoll. Bei IMAP wird der komplette Inhalt des Emailko
 
 ### Testfälle
 
-### Mailserver
+### Wie kann man Mailserver herausfinden?
 
 ### Definition Base64
 
-####Funktion
+Dies ist eine Kodier- und Dekodiertechnik. Sie wird verwendet um binäre Daten in ein ASCII-Textformat umzuwandeln und umgehkehrt. Es wird im Allgemeinen dazu verwendet, um inhaltbasierte Nachrichten über das Internet zu übertragen.
+
+#### Funktion
+
+1. Zuerst unterteilt es alle drei Bits der binären Daten in sechs Bit-Einheiten.
+2. Die neuen Daten werden als 64-Radix-Zahlensystem und als Sieben-Bit-ASCII-Text dargestellt.
+3. Diese Daten sind nicht für Menschen lesbar.
+
+#### Detailierter Ablauf
+
+<img src="https://github.com/lauradubach/M239/blob/main/Base64.jpg" width="450" height="300">
