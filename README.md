@@ -42,11 +42,18 @@ Post Office Protocol
 
 
 ### Definition IMAP
-Internet Message Access Protocol
+Das Internet Message Access Protocol (IMAP) ist ein Netzwerkprotokoll, welcher sich um die Online-Verwaltung von E-Mails auf Servern kümmert. Es erlaubt die Synchronisation des lokalen Clients mit dem Postfach vom Server. Mit dem Protokoll IMAP stehen Client und Server ständig in Verbindung. Solange auf dem Server die Mails nicht gelöscht werden, kann auf diese zugegriffen werden während einer IMAP-Sitzung. Durch das können auch Endgeräte mit schlechtem Internet  auf den Server zugreifen.
 
 #### Funktion
+1. Zuerst wird die Verbindung zwischen Client und Server hergestellt über TCP.
+2. Da der Client bei IMAP keine Antwort auf Kommandos abwartet, kann er mehrere Befehle hintereinander senden.
+3. Damit der Client dann später bei einer Rückmeldung weiss, dass es vom diesem Server kommt, schickt der Client eine Kennung mit, die der Server dann in seiner Antwort zurück schickt.
+4. Wenn der Server in der Antwort ein Zeichen am Anfang der Zeile sendet, heisst das, dass der Server noch auf mehr Infos vom Befehl des Clients wartet.
+5. Schlussendlich ist dann in der Antwort entweder ein «OK», «NO» oder «BAD» gekennzeichnet, welches informiert ob die Mission ein Erfolg war oder nicht oder ob es einen Syntax-fehler gibt.
 
 #### Detailierter Ablauf
+
+<img src="https://github.com/lauradubach/M239/blob/main/IMAP.jpg" width="500" height="300">
 
 
 ### Unterschiede zwischen POP3 und IMAP
