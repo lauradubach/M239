@@ -57,17 +57,17 @@ IMAP ist das modernere Protokoll. Bei IMAP wird der komplette Inhalt des Emailko
 
 Zuerst startet man eine telnet Verbindung auf einen Server:
 
-<img src="https://github.com/lauradubach/M239/blob/main/1%20SMTP.png" width="450" height="300">
+<img src="https://github.com/lauradubach/M239/blob/main/1%20SMTP.png" width="500" height="300">
 
 
 Wenn dieser sich verbindet kann man nun eine folgende Zeile sehen und dort Sachen eingeben:
 
-<img src="https://github.com/lauradubach/M239/blob/main/2%20SMTP.png" width="450" height="300">
+<img src="https://github.com/lauradubach/M239/blob/main/2%20SMTP.png" width="500" height="300">
 
 
 Wenn man dann auf Wireshark geht kann man auf SMTP filtern und der Verkehr wird angezeigt:
 
-<img src="https://github.com/lauradubach/M239/blob/main/3%20SMTP.png" width="500" height="300">
+<img src="https://github.com/lauradubach/M239/blob/main/3%20SMTP.png" width="600" height="250">
 
 
 Man kann diesen auch folgen und sieht dann was man alles eingegeben hat:
