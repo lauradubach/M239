@@ -16,9 +16,9 @@ Das Protokoll SMTP ist für den Austausch der E-Mails zuständig. Dieses Protoko
 #### Funktion
 
 1. Wenn man eine Mail sendet, ist der Computer ein SMTP Client.
-2.	Der SMTP Server hingegen ist der Ausgangsserver des Mailanbieters, zunächst wird diese Mail auf den Server hochgeladen.
-3.	Nun kontaktiert der Server den DNS Server, der vermittelt nun einen Ziel SMTP Server.
-4.	Auf dem Ziel SMTP Server wird die Nachricht dann gespeichert und kann vom Empfänger IMAP oder POP3 heruntergeladen werden.
+2. Der SMTP Server hingegen ist der Ausgangsserver des Mailanbieters, zunächst wird diese Mail auf den Server hochgeladen.
+3. Nun kontaktiert der Server den DNS Server, der vermittelt nun einen Ziel SMTP Server.
+4. Auf dem Ziel SMTP Server wird die Nachricht dann gespeichert und kann vom Empfänger IMAP oder POP3 heruntergeladen werden.
 
 #### Detailierter Ablauf
 
@@ -53,10 +53,27 @@ Internet Message Access Protocol
 
 IMAP ist das modernere Protokoll. Bei IMAP wird der komplette Inhalt des Emailkontos stets mit dem Mailprogramm auf dem Computer synchronisiert. Bei POP3 findet nur der simple Download statt.  
 
-
 ### Testfälle
 
-### Wie kann man Mailserver herausfinden?
+### Wie kann man seinen Mailserver herausfinden?
+Wenn man zum Beispiel im Mobile Phone auf sein E-Mail geht, kann man oben rechts auf die drei Punkte klicken und dann auf die Einstellungen:
+
+<img src="https://github.com/lauradubach/M239/blob/main/1%20Mail.png" width="350" height="500">
+
+Unter den Einstellungen kann man nun sein gewünschtes Mailkonto auswählen und dann findet man ganz unten die Erweiterten Einstellungen:
+
+<img src="https://github.com/lauradubach/M239/blob/main/2%20Mail.png" width="350" height="500">
+
+Hier sieht man nun alle Infos zum Ein- und Ausgang des Mailservers.
+
+Eingang:
+
+<img src="https://github.com/lauradubach/M239/blob/main/3%20Mail.png" width="350" height="500">
+
+Ausgang:
+
+<img src="https://github.com/lauradubach/M239/blob/main/4%20Mail.png" width="350" height="500">
+
 
 ### Definition Base64
 
