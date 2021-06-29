@@ -53,7 +53,26 @@ Internet Message Access Protocol
 
 IMAP ist das modernere Protokoll. Bei IMAP wird der komplette Inhalt des Emailkontos stets mit dem Mailprogramm auf dem Computer synchronisiert. Bei POP3 findet nur der simple Download statt.  
 
-### Testfälle
+### SMTP Testfall
+
+Zuerst startet man eine telnet Verbindung auf einen Server:
+
+<img src="https://github.com/lauradubach/M239/blob/main/1%20SMTP.png" width="400" height="300">
+
+
+Wenn dieser sich verbindet kann man nun eine folgende Zeile sehen und dort Sachen eingeben:
+
+<img src="https://github.com/lauradubach/M239/blob/main/2%20SMTP.png" width="400" height="300">
+
+
+Wenn man dann auf Wireshark geht kann man auf SMTP filtern und der Verkehr wird angezeigt:
+
+<img src="https://github.com/lauradubach/M239/blob/main/3%20SMTP.png" width="400" height="300">
+
+
+Man kann diesen auch folgen und sieht dann was man alles eingegeben hat:
+
+<img src="https://github.com/lauradubach/M239/blob/main/4%20SMTP.png" width="400" height="300">
 
 ### Wie kann man seinen Mailserver herausfinden?
 Wenn man zum Beispiel im Mobile Phone auf sein E-Mail geht, kann man oben rechts auf die drei Punkte klicken und dann auf die Einstellungen:
@@ -62,17 +81,17 @@ Wenn man zum Beispiel im Mobile Phone auf sein E-Mail geht, kann man oben rechts
 
 Unter den Einstellungen kann man nun sein gewünschtes Mailkonto auswählen und dann findet man ganz unten die Erweiterten Einstellungen:
 
-<img src="https://github.com/lauradubach/M239/blob/main/2%20Mail.png" width="350" height="500">
+<img src="https://github.com/lauradubach/M239/blob/main/2%20Mail.png" width="350" height="700">
 
 Hier sieht man nun alle Infos zum Ein- und Ausgang des Mailservers.
 
 Eingang:
 
-<img src="https://github.com/lauradubach/M239/blob/main/3%20Mail.png" width="350" height="500">
+<img src="https://github.com/lauradubach/M239/blob/main/3%20Mail.png" width="350" height="700">
 
 Ausgang:
 
-<img src="https://github.com/lauradubach/M239/blob/main/4%20Mail.png" width="350" height="500">
+<img src="https://github.com/lauradubach/M239/blob/main/4%20Mail.png" width="350" height="700">
 
 
 ### Definition Base64
